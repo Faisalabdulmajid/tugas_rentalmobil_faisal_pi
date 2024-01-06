@@ -86,11 +86,11 @@ if (empty($_SESSION['username_faisal']) and empty($_SESSION['password_faisal']))
                                 </div>
                                 <div class="mb-3">
                                     <label for="brand_mobil_faisal" class="form-label">Brand Mobil :</label>
-                                    <input type="text" name="brand_mobil_faisal" class="form-control" id="brand_mobil_faisal" placeholder="Masukan brand mobil" required>
+                                    <input type="text" name="brand_mobil_faisal" class="form-control" id="brand_mobil_faisal" placeholder="Masukan Brand Mobil" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="tipe_transmisi_faisal" class="form-label">Transmisi mobil:</label>
-                                    <input type="text" name="tipe_transmisi_faisal" class="form-control" id="tipe_transmisi_faisal" placeholder="Masukan tipe transmisi" required>
+                                    <label for="tipe_transmisi_faisal" class="form-label">Transmisi Mobil:</label>
+                                    <input type="text" name="tipe_transmisi_faisal" class="form-control" id="tipe_transmisi_faisal" placeholder="Masukan Tipe Transmisi" required>
                                 </div>
                                 <div class="mb-3">
                                     <a href="tampil_mobil.php" class="btn btn-warning">Kembali</a> <button type="submit" class="btn btn-primary">Simpan</button>
