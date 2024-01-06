@@ -91,8 +91,8 @@ if (empty($_SESSION['username_faisal']) and empty($_SESSION['password_faisal']))
                                     <input type="text" name="nama_faisal" class="form-control" id="nama_faisal" placeholder="Masukan Nama Pelanggan" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="no_hp_faisal" class="form-label">No_hp :</label>
-                                    <input type="text" name="no_hp_faisal" class="form-control" id="no_hp_faisal" placeholder="Masukan No_hp" required>
+                                    <label for="no_hp_faisal" class="form-label">No hp :</label>
+                                    <input type="text" name="no_hp_faisal" class="form-control" id="no_hp_faisal" placeholder="Masukan No hp" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="alamat_faisal" class="form-label">Alamat:</label>
