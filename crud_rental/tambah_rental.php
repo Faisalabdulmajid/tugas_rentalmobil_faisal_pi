@@ -91,9 +91,6 @@ if (empty($_SESSION['username_faisal']) and empty($_SESSION['password_faisal']))
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 mb-4">
-                    <?php include "menu.php"; ?>
-                </div>
             </div>
             <div class="card border-success mb-3">
                 <div class="card-header">Tambah Data Rental</div>
@@ -147,15 +144,15 @@ if (empty($_SESSION['username_faisal']) and empty($_SESSION['password_faisal']))
                             </div>
                             <div class="mb-3">
                                 <label for="lama_faisal" class="form-label">Lama Sewa :</label>
-                                <input type="number" name="lama_faisal" class="form-control" id="lama_faisal" placeholder="Lama Sewa" required>
+                                <input type="number" name="lama_faisal" class="form-control" id="lama_faisal" placeholder="Masukkan Lama Sewa" required>
                             </div>
                             <div class="mb-3">
                                 <label for="harga_faisal" class="form-label">Harga Rental :</label>
-                                <input type="number" name="harga_faisal" class="form-control" id="harga_faisal" oninput="calculateTotal()" required>
+                                <input type="number" name="harga_faisal" class="form-control" id="harga_faisal" placeholder="Masukkan Harga rental Perhari" oninput="calculateTotal()" required>
                             </div>
                             <div class="mb-3">
                                 <label for="total_bayar_faisal" class="form-label">Total Pembayaran :</label>
-                                <input type="number" name="total_bayar_faisal" class="form-control" id="total_bayar_faisal" readonly>
+                                <input type="number" name="total_bayar_faisal" class="form-control" id="total_bayar_faisal" placeholder="Masukkan Total Pembayaran" readonly>
                             </div>
                             <div class="mb-3">
                                 <a href="tampil_rental.php" class="btn btn-warning">Kembali</a> <button type="submit" class="btn btn-primary">Simpan</button>
