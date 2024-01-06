@@ -1,55 +1,22 @@
-<?php
-session_start();
-if (!empty($_SESSION['username']) and !empty($_SESSION['password'])) {
-    header("location:tampil_mahasiswa.php");
-} else {
-?>
-
     <!DOCTYPE html>
     <html lang="en">
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tambah Data Mahasiswa</title>
+        <title>Data Rental</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <div class="container-fluid ">
-            <div class="row justify-content-center ">
-                <div class="col-md-3 mt-5">
-                    <div class="card border-success mb-3 ">
-                        <div class="card-header">LOGIN FORM</div>
-                        <div class="card-body text-success">
-                            <div class="row ">
-                                <div class="col-md-12 ">
-                                    <form method="POST" action="cek_login.php">
-                                        <div class="mb-3 mt-3">
-                                            <label for="username" class="form-label">Username :</label>
-                                            <input type="text" name="username" class="form-control" id="username" placeholder="Masukan Username" required>
-                                        </div>
-                                        <div class="mb-3 mt-3">
-                                            <label for="password" class="form-label">Password :</label>
-                                            <input type="password" name="password" class="form-control" id="password" placeholder="Masukan Password" required>
-                                        </div>
-                                        <div class="mb-3">
-                                            <button type="submit" class="btn btn-primary">Login</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div style="position: relative;">
+            <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="">
+            <div style="position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); color: black; z-index: 1; text-align: center;">
+                <h1><b>SELAMAT DATANG</b></h1>
+                <h1><b>RENTAL MOBIL FAISAL</b></h1>
+                <a href="masuk.php"><button type="button" class="btn btn-primary btn-lg"><b>MASUK</b></button></a>
             </div>
         </div>
-        </div>
-        </div>
-    </body>
 
     </html>
-<?php
-}
-?>
